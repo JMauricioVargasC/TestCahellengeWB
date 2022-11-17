@@ -17,11 +17,6 @@ class DynamicTable extends Page {
         return $$('//div/div[@role="row"]');
     }
 
-    get nameFirtscolumn() {
-
-        return ('//*[@role="rowgroup"][2]/div[" "]/span[1]');
-    }
-
     get warningBar() {
         return ('//p[@class="bg-warning"]');
     }
